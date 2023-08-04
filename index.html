@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coolstyles</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" type="image/png" href="img/logo.png" class="tab-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container-2xl w-full flex md:max-lg:flex">
+        <div class=" container-left fixed hidden md:flex">
+            <div class="navbar bg-slate-800  md:h-[120vh] w-[75px] h-[100%] ">
+                <div class="logo pt-5 w-[60px] h-[60px]  m-auto">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="nav-list text-white ">
+                    <ul class="p-2 pt-5">
+                        <li class="item pt-4 text-center ">
+                            <a href="">
+                                <i class="fa-solid fa-house"></i>
+                                <span class="text-[10px] block">Home</span>
+                            </a>
+                        </li>
+                        <li class="item pt-4 text-center">
+                            <a href="">
+                                <i class="fa-solid fa-star"></i>
+                                <span class="text-[10px] block">Home</span>
+                            </a>
+                        </li>
+                        <li class="item pt-4 text-center">
+                            <a href="">
+                                <i class="fa-solid fa-fire"></i>
+                                <span class="text-[10px] block">Top Style</span>
+                            </a>
+                        </li>
+                        <li class="item pt-4 text-center">
+                            <a href="">
+                                <i class="fa-solid fa-bars"></i>
+                                <span class="text-[10px] block">Collections</span>
+                            </a>
+                        </li>
+                        <li class="item pt-4 text-center">
+                            <a href="">
+                                <i class="fa-solid fa-desktop"></i>
+                                <span class="text-[10px] block">Wallpapers</span>
+                            </a>
+                        </li>
+                        <li class="item pt-4 text-center">
+                            <a href="">
+                                <i class="fa-solid fa-user"></i>
+                                <span class="text-[10px] block">How to Use</span>
+                            </a>
+                        </li>
+                        <li class="item pt-4 text-center    ">
+                            <a href="">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span class="text-[10px] block">Contact Us</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div
+            class="container-right xl:ml-[90px] md:ml-[90px]  px-[25px] relative w-full overflow-x-hidde  sm:max-w-full lg:max-w-[calc(100%-85px)]">
+            <section>
+                <div class="main-heder flex pt-10 hidden lg:flex">
+                    <div class="search w-[85%] ">
+                        <div class="absolute top-[54px] left-[44px] text-gray-400"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <input name="name" placeholder="Search for style or collection..." type="text"
+                            class="search-input text-[15px] w-full text-xl border-[1px] border-slate-400 h-[50px] indent-12 rounded-[40px]">
+                    </div>
+
+                    <div class="item-img flex mt-2 ">
+                        <img src="	https://coolstyles.org/image/app-store.svg" alt="" class="h-[35px] p-0 ml-[17px]">
+
+                        <img src="	https://coolstyles.org/image/google-play.svg" alt="" class="h-[35px] p-0 ml-[17px]">
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="mt-5 ">
+                <div class="lg:hidden flex justify-between ">
+                    <div class="md:hidden">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <h1 class="z-[100] logo-text font-extrabold text-2xl text-indigo-900">COOLSTYLES</h1>
+                    <div class="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                   
+                    
+
+                </div>
+              
+            </section>
+
+            <div class=" block  lg:hidden">
+                <span class="  horizontal2 border-[1px] bg-gray-100 w-[100%] block mt-5 mb-5"></span>
+            </div>
+
+
+
+
+
+            <!-- end -->
+
+            <section>
+                <div class="wrapper flex mt-[20px] hidden md:flex">
+                    <div class="icon"><i id="left" class="fa-solid fa-angle-left"></i></div>
+                    <ul class="tabs-box flex">
+                        <li class="tab " id="tab-text">We Styling ?</li>
+                        <li class="tab " data-tab="tab1">
+                            <a href="#">
+                                <i class="fa-solid fa-house" style="color: #000000;"></i>
+                            </a>
+                        </li>
+                        <li class="tab active" data-tab="tab2">
+                            <a href="#" style="color: #000000;">
+                                All
+                            </a>
+                        </li>
+                        <li class="tab" data-tab="tab3">
+                            <a href="#">
+                                <img src="img//fb.png" alt="">
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li class="tab" data-tab="tab4">
+                            <a href="#">
+                                <img src="img//gg.png" alt="">
+                                <span>Google</span>
+                            </a>
+                        </li>
+                        <li class="tab" data-tab="tab5">
+                            <a href="#">
+                                <img src="img//ytb.jpg" alt="">
+                                <span>Youtube</span>
+                            </a>
+                        </li>
+                        <li class="tab" data-tab="tab6">
+                            <a href="#">
+                                <img src="img//tt.png" alt="">
+                                <span>Tiktok</span>
+                            </a>
+                        </li>
+                        <li class="tab" data-tab="tab7">
+                            <a href="#">
+                                <img src="img//tw.png" alt="">
+                                <span>Twitter</span>
+                            </a>
+                        </li>
+                        <li class="tab" data-tab="tab8">
+                            <a href="#">
+                                <img src="img//itr.jpg" alt="">
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li class="tab" data-tab="tab9">
+                            <a href="#">
+                                <img src="img//rb.jpg" alt="">
+                                <span>Robox</span>
+                            </a>
+                        </li>
+                        <li class="tab" data-tab="tab10">
+                            <a href="#">
+                                <img src="img//Netflix-Logo-2006.png" alt="">
+                                <span>Netflix</span>
+                            </a>
+                        </li>
+                        <li class="tab" data-tab="tab11">
+                            <a href="#">
+                                <img src="img//Amazon_icon.svg.png" alt="">
+                                <span>Amazon</span>
+                            </a>
+                        </li>
+                        <li class="tab" data-tab="tab12">
+                            <a href="#">
+                                <img src="img//2560px-EBay_logo.svg.png" alt="">
+                                <span>Ebay</span>
+                            </a>
+                        </li>
+                        <li class="tab" data-tab="tab13">
+                            <a href="#">
+                                <img src="img//reddit-logo.png" alt="">
+                                <span>Reddit</span>
+                            </a>
+                        </li>
+                        <li class="tab" data-tab="tab14">
+                            <a href="#">
+                                <img src="img/pinterest-logo.png" alt="">
+                                <span> Pinterest</span>
+                            </a>
+                        </li>
+                        <li class="tab" data-tab="tab15">
+                            <a href="#">
+                                <img src="img//VK.png.png" alt="">
+                                <span>Vkontakte</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="icon"><i id="right" class="fa-solid fa-angle-right"></i></div>
+                </div>
+
+            </section>
+            <section>
+                <div class="head-line flex justify-between items-center pt-5 ">
+
+                    <h1 class="font-semibold text-2xl ml-5">CoolStyles - Create themes for any website
+                    </h1>
+                    <div class="icon-line text-2xl">
+                        <i class="fa-solid fa-filter"></i>
+                    </div>
+                    
+                </div>
+
+                <div class="filter-panel justify-end flex border-[1px] border-gray-200 mt-5 bg-gray-100 p-2">
+                    <div class="filter">
+                        <a href=""
+                            class="text-filter text-sm bg-[#374151] rounded-[4px] text-purple-100 mr-2 px-2.5 py-0.5  hover:bg-red-200">General</a>
+                        <a href=""
+                            class="text-filter text-sm bg-[#374151] rounded-[4px] text-purple-100 mr-2 px-2.5 py-0.5  hover:bg-red-200">Valentine</a>
+                        <a href=""
+                            class="text-filter text-sm bg-[#374151] rounded-[4px] text-purple-100 mr-2 px-2.5 py-0.5  hover:bg-red-200">Football</a>
+                        <a href=""
+                            class="text-filter text-sm bg-[#374151] rounded-[4px] text-purple-100 mr-2 px-2.5 py-0.5  hover:bg-red-200">Celebration</a>
+                        <a href=""
+                            class="text-filter text-sm bg-[#374151] rounded-[4px] text-purple-100 mr-2 px-2.5 py-0.5  hover:bg-red-200">Anime</a>
+                        <a href=""
+                            class="text-filter text-sm bg-[#374151] rounded-[4px] text-purple-100 mr-2 px-2.5 py-0.5  hover:bg-red-200">Color</a>
+                        <a href=""
+                            class="text-filter text-sm bg-[#374151] rounded-[4px] text-purple-100 mr-2 px-2.5 py-0.5  hover:bg-red-200">Season</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="line-filter mt-5 ">
+                <div class="head-line2 flex justify-between">
+                    <h1 class="font-semibold text-2xl ml-5">Hot Styles</h1>
+
+                    <div class="icon-line2 text-blue-700 font-semibold">
+                        <a href="" class="hover:text-blue-400">More styles</a>
+                        <i class="fa-solid fa-chevron-right "></i>
+                    </div>
+                </div>
+            </section>
+
+            <section class="list-product">
+                <div
+                    class=" mt-5 flex grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 transition-all">
+                    <div class="product-card border-slate-400 border-[1px] rounded-[15px] w-[100%] h-full">
+                        <div class="laptop">
+                            <div class="laptop__screen">
+                                <!-- Image as the screen -->
+                                <img src="img/google-super-mario.png" alt="Product Image" />
+                            </div>
+
+                            <div class="laptop__under">
+                                <div class="bottom-piece"></div>
+                            </div>
+                            <!-- <div class="laptop__shadow"></div> -->
+                        </div>
+                        <div class="product-info mt-[30px] ml-[10px]">
+                            <div class="info ">
+                                <h1 class="name font-semibold text-2xl">Google - Super mario theme</h1>
+                                <span class="name2 block mt-5 ">
+                                    <span class=" text-xs font-bold">Applies to:</span>
+                                    <a href="" class="text-xs">Google</a>
+                                </span>
+                                <span class="name2 block mt-5">
+                                    <span class="text-xs font-bold">Author:</span>
+                                    <a href="" class="text-xs">admin</a>
+                                </span>
+                            </div>
+
+                        </div>
+                        <span class="horizontal border-[1px] bg-gray-100 w-[90%] block m-5"></span>
+                        <div class="flex justify-end">
+                            <div class="button flex  border-[1px] border-gray-200 rounded-full	w-[80px] mr-5 mb-5">
+                                <a href="" class=" mr-2 ml-2  "><i class="fa-brands fa-google"
+                                        style="color: #ff0000;"></i></a>
+                                <span class="separator border-[1px] h-[25px] bg-gray-100"></span>
+                                <a href="" class="add mr-2 ml-2">Add</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 2 -->
+                    <div class="product-card border-slate-400 border-[1px] rounded-[15px] w-[100%] h-auto">
+                        <div class="laptop">
+                            <div class="laptop__screen">
+                                <!-- Image as the screen -->
+                                <img src="img/fc-mu.png" alt="Product Image" />
+                            </div>
+
+                            <div class="laptop__under">
+                                <div class="bottom-piece"></div>
+                            </div>
+                            <!-- <div class="laptop__shadow"></div> -->
+                        </div>
+                        <div class="product-info mt-[30px] ml-[10px]">
+                            <div class="info ">
+                                <h1 class="name font-semibold text-2xl">Google - FC MU</h1>
+                                <span class="name2 block mt-5 ">
+                                    <span class=" text-xs font-bold">Applies to:</span>
+                                    <a href="" class="text-xs">Google</a>
+                                </span>
+                                <span class="name2 block mt-5">
+                                    <span class="text-xs font-bold">Author:</span>
+                                    <a href="" class="text-xs">admin</a>
+                                </span>
+                            </div>
+
+                        </div>
+                        <span class="horizontal border-[1px] bg-gray-100 w-[90%] block m-5"></span>
+                        <div class="flex justify-end">
+                            <div class="button flex  border-[1px] border-gray-200 rounded-full	w-[80px] mr-5 mb-5">
+                                <a href="" class=" mr-2 ml-2  "><i class="fa-brands fa-google"
+                                        style="color: #ff0000;"></i></a>
+                                <span class="separator border-[1px] h-[25px] bg-gray-100"></span>
+                                <a href="" class="add mr-2 ml-2">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="product-card border-slate-400 border-[1px] rounded-[15px] w-[100%] h-auto">
+                        <div class="laptop">
+                            <div class="laptop__screen">
+                                <!-- Image as the screen -->
+                                <img src="img/youtube-hello-kitty-theme.png" alt="Product Image" />
+                            </div>
+
+                            <div class="laptop__under">
+                                <div class="bottom-piece"></div>
+                            </div>
+                            <!-- <div class="laptop__shadow"></div> -->
+                        </div>
+                        <div class="product-info mt-[30px] ml-[10px]">
+                            <div class="info ">
+                                <h1 class="name font-semibold text-2xl">Youtube - Hello Kitty theme</h1>
+                                <span class="name2 block mt-5 ">
+                                    <span class=" text-xs font-bold">Applies to:</span>
+                                    <a href="" class="text-xs">Google</a>
+                                </span>
+                                <span class="name2 block mt-5">
+                                    <span class="text-xs font-bold">Author:</span>
+                                    <a href="" class="text-xs">admin</a>
+                                </span>
+                            </div>
+
+                        </div>
+                        <span class="horizontal border-[1px] bg-gray-100 w-[90%] block m-5"></span>
+                        <div class="flex justify-end">
+                            <div class="button flex  border-[1px] border-gray-200 rounded-full	w-[80px] mr-5 mb-5">
+                                <a href="" class=" mr-2 ml-2  "><i class="fa-brands fa-google"
+                                        style="color: #ff0000;"></i></a>
+                                <span class="separator border-[1px] h-[25px] bg-gray-100"></span>
+                                <a href="" class="add mr-2 ml-2">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="product-card border-slate-400 border-[1px] rounded-[15px] w-[100%] h-auto">
+                        <div class="laptop">
+                            <div class="laptop__screen">
+                                <!-- Image as the screen -->
+                                <img src="img/youtube-pikachu.png" alt="Product Image" />
+                            </div>
+
+                            <div class="laptop__under">
+                                <div class="bottom-piece"></div>
+                            </div>
+                            <!-- <div class="laptop__shadow"></div> -->
+                        </div>
+                        <div class="product-info mt-[30px] ml-[10px]">
+                            <div class="info ">
+                                <h1 class="name font-semibold text-2xl">youtube - pikachu</h1>
+                                <span class="name2 block mt-5 ">
+                                    <span class=" text-xs font-bold">Applies to:</span>
+                                    <a href="" class="text-xs">youtube</a>
+                                </span>
+                                <span class="name2 block mt-5">
+                                    <span class="text-xs font-bold">Author:</span>
+                                    <a href="" class="text-xs">admin</a>
+                                </span>
+                            </div>
+
+                        </div>
+                        <span class="horizontal border-[1px] bg-gray-100 w-[90%] block m-5"></span>
+                        <div class="flex justify-end">
+                            <div class="button flex  border-[1px] border-gray-200 rounded-full	w-[80px] mr-5 mb-5">
+                                <a href="" class=" mr-2 ml-2  "><i class="fa-brands fa-google"
+                                        style="color: #ff0000;"></i></a>
+                                <span class="separator border-[1px] h-[25px] bg-gray-100"></span>
+                                <a href="" class="add mr-2 ml-2">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="product-card border-slate-400 border-[1px] rounded-[15px] w-[100%] h-auto">
+                        <div class="laptop">
+                            <div class="laptop__screen">
+                                <!-- Image as the screen -->
+                                <img src="img/youtube-style-retrowave.png" alt="Product Image" />
+                            </div>
+
+                            <div class="laptop__under">
+                                <div class="bottom-piece"></div>
+                            </div>
+                            <!-- <div class="laptop__shadow"></div> -->
+                        </div>
+                        <div class="product-info mt-[30px] ml-[10px]">
+                            <div class="info ">
+                                <h1 class="name font-semibold text-2xl">Youtube - Style RetroWave theme</h1>
+                                <span class="name2 block mt-5 ">
+                                    <span class=" text-xs font-bold">Applies to:</span>
+                                    <a href="" class="text-xs">Youtube</a>
+                                </span>
+                                <span class="name2 block mt-5">
+                                    <span class="text-xs font-bold">Author:</span>
+                                    <a href="" class="text-xs">admin</a>
+                                </span>
+                            </div>
+                        </div>
+                        <span class="horizontal border-[1px] bg-gray-100 w-[90%] block m-5"></span>
+                        <div class="flex justify-end">
+                            <div class="button flex  border-[1px] border-gray-200 rounded-full	w-[80px] mr-5 mb-5">
+                                <a href="" class=" mr-2 ml-2  "><i class="fa-brands fa-google"
+                                        style="color: #ff0000;"></i></a>
+                                <span class="separator border-[1px] h-[25px] bg-gray-100"></span>
+                                <a href="" class="add mr-2 ml-2">Add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="product-card border-slate-400 border-[1px] rounded-[15px] w-[100%] h-auto">
+                        <div class="laptop">
+                            <div class="laptop__screen">
+                                <!-- Image as the screen -->
+                                <img src="img/google-dark.png" alt="Product Image" />
+                            </div>
+
+                            <div class="laptop__under">
+                                <div class="bottom-piece"></div>
+                            </div>
+                            <!-- <div class="laptop__shadow"></div> -->
+                        </div>
+                        <div class="product-info mt-[30px] ml-[10px]">
+                            <div class="info ">
+                                <h1 class="name font-semibold text-2xl">Google - Dark theme</h1>
+                                <span class="name2 block mt-5 ">
+                                    <span class=" text-xs font-bold">Applies to:</span>
+                                    <a href="" class="text-xs">Google</a>
+                                </span>
+                                <span class="name2 block mt-5">
+                                    <span class="text-xs font-bold">Author:</span>
+                                    <a href="" class="text-xs">admin</a>
+                                </span>
+                            </div>
+
+                        </div>
+                        <span class="horizontal border-[1px] bg-gray-100 w-[90%] block m-5"></span>
+                        <div class="flex justify-end">
+                            <div class="button flex  border-[1px] border-gray-200 rounded-full	w-[80px] mr-5 mb-5">
+                                <a href="" class=" mr-2 ml-2  "><i class="fa-brands fa-google"
+                                        style="color: #ff0000;"></i></a>
+                                <span class="separator border-[1px] h-[25px] bg-gray-100"></span>
+                                <a href="" class="add mr-2 ml-2">Add</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+            </section>
+            <section class="flex justify-center ">
+                <div class="pagination mt-5 container-2xl hidden sm:block">
+                    <span class="horizontal2 border-[1px] bg-gray-100 w-[100%] block mt-5 mb-5 sm:block"></span>
+                    <ul class="flex justify-center ">
+                        <li class="border-[1px] border-slate-400 py-2 px-4 rounded-l-lg"><a href="#"><i
+                                    class="fa-solid fa-chevron-left"></i></a></li>
+                        <li class="border-[1px] border-slate-400 py-2 px-4 bg-zinc-950 text-white "><a href="#">1</a>
+                        </li>
+                        <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                href="#">2</a></li>
+                        <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                href="#">3</a></li>
+                        <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                href="#">4</a></li>
+                        <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                href="#">5</a></li>
+                        <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                href="#">6</a></li>
+                        <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                href="#">7</a></li>
+                        <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                href="#">8</a></li>
+                        <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                href="#">9</a></li>
+                        <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                href="#">10</a></li>
+                        <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                href="#">11</a></li>
+                        <li class="border-[1px] border-slate-400 py-2 px-4 rounded-r-lg"><a href="#"><i
+                                    class="fa-solid fa-chevron-right"></i></a></li>
+                    </ul>
+
+                    
+                </div>
+                <div class=" justify-center block  sm:hidden mt-5">
+                    <span class="horizontal2 border-[1px] bg-gray-100 w-[100%] block mt-5 mb-5"></span>
+                    <div class="flex">
+                        <a href="" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium hover:bg-gray-50">Previous</a>
+                    <a href="" class="ml-3 px-4 py-2 border border-gray-300 rounded-md text-sm font-medium hover:bg-gray-50">Next</a>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section>
+                <section class="line-filter mt-5 ">
+                    <div class="head-line2 flex justify-between">
+                        <h1 class="font-semibold text-2xl ml-5">New Styles</h1>
+
+                        <div class="icon-line2 text-blue-700 font-semibold">
+                            <a href="" class="hover:text-blue-400">More styles</a>
+                            <i class="fa-solid fa-chevron-right "></i>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="list-product">
+                    <div
+                        class=" mt-5 flex grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 transition-all">
+                        <div class="product-card border-slate-400 border-[1px] rounded-[15px] w-[100%] h-full">
+                            <div class="laptop">
+                                <div class="laptop__screen">
+                                    <!-- Image as the screen -->
+                                    <img src="img/netflix-pink-color.png" alt="Product Image" />
+                                </div>
+
+                                <div class="laptop__under">
+                                    <div class="bottom-piece"></div>
+                                </div>
+                                <!-- <div class="laptop__shadow"></div> -->
+                            </div>
+                            <div class="product-info mt-[30px] ml-[10px]">
+                                <div class="info ">
+                                    <h1 class="name font-semibold text-2xl">Netflix-Pink color</h1>
+                                    <span class="name2 block mt-5 ">
+                                        <span class=" text-xs font-bold">Applies to:</span>
+                                        <a href="" class="text-xs">Netflix</a>
+                                    </span>
+                                    <span class="name2 block mt-5">
+                                        <span class="text-xs font-bold">Author:</span>
+                                        <a href="" class="text-xs">admin</a>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <span class="horizontal border-[1px] bg-gray-100 w-[90%] block m-5"></span>
+                            <div class="flex justify-end">
+                                <div class="button flex  border-[1px] border-gray-200 rounded-full	w-[80px] mr-5 mb-5">
+                                    <a href="" class=" mr-2 ml-2  "><i class="fa-brands fa-google"
+                                            style="color: #ff0000;"></i></a>
+                                    <span class="separator border-[1px] h-[25px] bg-gray-100"></span>
+                                    <a href="" class="add mr-2 ml-2">Add</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- 2 -->
+                        <div class="product-card border-slate-400 border-[1px] rounded-[15px] w-[100%] h-auto">
+                            <div class="laptop">
+                                <div class="laptop__screen">
+                                    <!-- Image as the screen -->
+                                    <img src="img/reddit-pink-color.png" alt="Product Image" />
+                                </div>
+
+                                <div class="laptop__under">
+                                    <div class="bottom-piece"></div>
+                                </div>
+                                <!-- <div class="laptop__shadow"></div> -->
+                            </div>
+                            <div class="product-info mt-[30px] ml-[10px]">
+                                <div class="info ">
+                                    <h1 class="name font-semibold text-2xl">Reddit-Pink color</h1>
+                                    <span class="name2 block mt-5 ">
+                                        <span class=" text-xs font-bold">Applies to:</span>
+                                        <a href="" class="text-xs">Reddit</a>
+                                    </span>
+                                    <span class="name2 block mt-5">
+                                        <span class="text-xs font-bold">Author:</span>
+                                        <a href="" class="text-xs">admin</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="horizontal border-[1px] bg-gray-100 w-[90%] block m-5"></span>
+                            <div class="flex justify-end">
+                                <div class="button flex  border-[1px] border-gray-200 rounded-full	w-[80px] mr-5 mb-5">
+                                    <a href="" class=" mr-2 ml-2  "><i class="fa-brands fa-google"
+                                            style="color: #ff0000;"></i></a>
+                                    <span class="separator border-[1px] h-[25px] bg-gray-100"></span>
+                                    <a href="" class="add mr-2 ml-2">Add</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="product-card border-slate-400 border-[1px] rounded-[15px] w-[100%] h-auto">
+                            <div class="laptop">
+                                <div class="laptop__screen">
+                                    <!-- Image as the screen -->
+                                    <img src="img/ebay-pink-color.png" alt="Product Image" />
+                                </div>
+
+                                <div class="laptop__under">
+                                    <div class="bottom-piece"></div>
+                                </div>
+                                <!-- <div class="laptop__shadow"></div> -->
+                            </div>
+                            <div class="product-info mt-[30px] ml-[10px]">
+                                <div class="info ">
+                                    <h1 class="name font-semibold text-2xl">Ebay-Pink color</h1>
+                                    <span class="name2 block mt-5 ">
+                                        <span class=" text-xs font-bold">Applies to:</span>
+                                        <a href="" class="text-xs">Ebay</a>
+                                    </span>
+                                    <span class="name2 block mt-5">
+                                        <span class="text-xs font-bold">Author:</span>
+                                        <a href="" class="text-xs">admin</a>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <span class="horizontal border-[1px] bg-gray-100 w-[90%] block m-5"></span>
+                            <div class="flex justify-end">
+                                <div class="button flex  border-[1px] border-gray-200 rounded-full	w-[80px] mr-5 mb-5">
+                                    <a href="" class=" mr-2 ml-2  "><i class="fa-brands fa-google"
+                                            style="color: #ff0000;"></i></a>
+                                    <span class="separator border-[1px] h-[25px] bg-gray-100"></span>
+                                    <a href="" class="add mr-2 ml-2">Add</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 4 -->
+                        <div class="product-card border-slate-400 border-[1px] rounded-[15px] w-[100%] h-auto">
+                            <div class="laptop">
+                                <div class="laptop__screen">
+                                    <!-- Image as the screen -->
+                                    <img src="img/amazon-pink-colo.png" alt="Product Image" />
+                                </div>
+
+                                <div class="laptop__under">
+                                    <div class="bottom-piece"></div>
+                                </div>
+                                <!-- <div class="laptop__shadow"></div> -->
+                            </div>
+                            <div class="product-info mt-[30px] ml-[10px]">
+                                <div class="info ">
+                                    <h1 class="name font-semibold text-2xl">Amazon-Pink color</h1>
+                                    <span class="name2 block mt-5 ">
+                                        <span class=" text-xs font-bold">Applies to:</span>
+                                        <a href="" class="text-xs">Amazon</a>
+                                    </span>
+                                    <span class="name2 block mt-5">
+                                        <span class="text-xs font-bold">Author:</span>
+                                        <a href="" class="text-xs">admin</a>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <span class="horizontal border-[1px] bg-gray-100 w-[90%] block m-5"></span>
+                            <div class="flex justify-end">
+                                <div class="button flex  border-[1px] border-gray-200 rounded-full	w-[80px] mr-5 mb-5">
+                                    <a href="" class=" mr-2 ml-2  "><i class="fa-brands fa-google"
+                                            style="color: #ff0000;"></i></a>
+                                    <span class="separator border-[1px] h-[25px] bg-gray-100"></span>
+                                    <a href="" class="add mr-2 ml-2">Add</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 5 -->
+                        <div class="product-card border-slate-400 border-[1px] rounded-[15px] w-[100%] h-auto">
+                            <div class="laptop">
+                                <div class="laptop__screen">
+                                    <!-- Image as the screen -->
+                                    <img src="img/pinterest-pink-color.png" alt="Product Image" />
+                                </div>
+
+                                <div class="laptop__under">
+                                    <div class="bottom-piece"></div>
+                                </div>
+                                <!-- <div class="laptop__shadow"></div> -->
+                            </div>
+                            <div class="product-info mt-[30px] ml-[10px]">
+                                <div class="info ">
+                                    <h1 class="name font-semibold text-2xl">Pinterest-pink-color</h1>
+                                    <span class="name2 block mt-5 ">
+                                        <span class=" text-xs font-bold">Applies to:</span>
+                                        <a href="" class="text-xs">Pinterest</a>
+                                    </span>
+                                    <span class="name2 block mt-5">
+                                        <span class="text-xs font-bold">Author:</span>
+                                        <a href="" class="text-xs">admin</a>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <span class="horizontal border-[1px] bg-gray-100 w-[90%] block m-5"></span>
+                            <div class="flex justify-end">
+                                <div class="button flex  border-[1px] border-gray-200 rounded-full	w-[80px] mr-5 mb-5">
+                                    <a href="" class=" mr-2 ml-2  "><i class="fa-brands fa-google"
+                                            style="color: #ff0000;"></i></a>
+                                    <span class="separator border-[1px] h-[25px] bg-gray-100"></span>
+                                    <a href="" class="add mr-2 ml-2">Add</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 6 -->
+                        <div class="product-card border-slate-400 border-[1px] rounded-[15px] w-[100%]">
+                            <div class="laptop">
+                                <div class="laptop__screen">
+                                    <!-- Image as the screen -->
+                                    <img src="img/vkontakte-pink-color.png" alt="Product Image" />
+                                </div>
+
+                                <div class="laptop__under">
+                                    <div class="bottom-piece"></div>
+                                </div>
+                                <!-- <div class="laptop__shadow"></div> -->
+                            </div>
+                            <div class="product-info mt-[30px] ml-[10px]">
+                                <div class="info ">
+                                    <h1 class="name font-semibold text-2xl">Vkontakte-Pink color</h1>
+                                    <span class="name2 block mt-5 ">
+                                        <span class=" text-xs font-bold">Applies to:</span>
+                                        <a href="" class="text-xs">Vkontakte</a>
+                                    </span>
+                                    <span class="name2 block mt-5">
+                                        <span class="text-xs font-bold">Author:</span>
+                                        <a href="" class="text-xs">admin</a>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <span class="horizontal border-[1px] bg-gray-100 w-[90%] block m-5 "></span>
+                            <div class="flex justify-end">
+                                <div class="button flex  border-[1px] border-gray-200 rounded-full	w-[80px] mr-5 mb-5">
+                                    <a href="" class=" mr-2 ml-2  "><i class="fa-brands fa-google"
+                                            style="color: #ff0000;"></i></a>
+                                    <span class="separator border-[1px] h-[25px] bg-gray-100"></span>
+                                    <a href="" class="add mr-2 ml-2">Add</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                </section>
+                <section class="flex justify-center ">
+                    <div class="pagination mt-5 container-2xl hidden sm:block">
+                        <span class="horizontal2 border-[1px] bg-gray-100 w-[100%] block mt-5 mb-5 sm:block"></span>
+                        <ul class="flex justify-center ">
+                            <li class="border-[1px] border-slate-400 py-2 px-4 rounded-l-lg"><a href="#"><i
+                                        class="fa-solid fa-chevron-left"></i></a></li>
+                            <li class="border-[1px] border-slate-400 py-2 px-4 bg-zinc-950 text-white "><a href="#">1</a>
+                            </li>
+                            <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                    href="#">2</a></li>
+                            <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                    href="#">3</a></li>
+                            <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                    href="#">4</a></li>
+                            <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                    href="#">5</a></li>
+                            <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                    href="#">6</a></li>
+                            <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                    href="#">7</a></li>
+                            <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                    href="#">8</a></li>
+                            <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                    href="#">9</a></li>
+                            <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                    href="#">10</a></li>
+                            <li class="border-[1px] border-slate-400 py-2 px-4 hover:bg-slate-700 hover:text-white"><a
+                                    href="#">11</a></li>
+                            <li class="border-[1px] border-slate-400 py-2 px-4 rounded-r-lg"><a href="#"><i
+                                        class="fa-solid fa-chevron-right"></i></a></li>
+                        </ul>
+    
+                        
+                    </div>
+                    <div class=" justify-center block  sm:hidden mt-5">
+                        <span class="horizontal2 border-[1px] bg-gray-100 w-[100%] block mt-5 mb-5"></span>
+                        <div class="flex">
+                            <a href="" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium hover:bg-gray-50">Previous</a>
+                        <a href="" class="ml-3 px-4 py-2 border border-gray-300 rounded-md text-sm font-medium hover:bg-gray-50">Next</a>
+                        </div>
+                        
+                    </div>
+                </section>
+            </section>
+
+
+            <section class="footer rounded-[15px] flex justify-center mt-5">
+                <div class="block my-[60px] ">
+                    <div class="font-semibold">
+                        <span class=" text-white text-3xl text-center flex px-4 ">Do You like Cute Styles for Chrome ?</span>
+                        <span class="block text-white ml-[25%] my-[35px]">Rate us from Chorme Web Store</span>
+                    </div>
+
+                    <div class="google flex ml-[35%]  bg-white rounded-full px-4 py-1 gap-2  w-[150px]">
+                        <a href="https://chrome.google.com/webstore/detail/jjnobfbddipadlomlimahmpjgbjmmknm"
+                            class="flex my-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="45" height="45"
+                                viewBox="0 0 48 48" style=" fill:#000000;">
+                                <path fill="#4caf50"
+                                    d="M44,24c0,11.044-8.956,20-20,20S4,35.044,4,24S12.956,4,24,4S44,12.956,44,24z">
+                                </path>
+                                <path fill="#ffc107"
+                                    d="M24,4v20l8,4l-8.843,16c0.317,0,0.526,0,0.843,0c11.053,0,20-8.947,20-20S35.053,4,24,4z">
+                                </path>
+                                <path fill="#4caf50"
+                                    d="M44,24c0,11.044-8.956,20-20,20S4,35.044,4,24S12.956,4,24,4S44,12.956,44,24z">
+                                </path>
+                                <path fill="#ffc107"
+                                    d="M24,4v20l8,4l-8.843,16c0.317,0,0.526,0,0.843,0c11.053,0,20-8.947,20-20S35.053,4,24,4z">
+                                </path>
+                                <path fill="#f44336"
+                                    d="M41.84,15H24v13l-3-1L7.16,13.26H7.14C10.68,7.69,16.91,4,24,4C31.8,4,38.55,8.48,41.84,15z">
+                                </path>
+                                <path fill="#dd2c00" d="M7.158,13.264l8.843,14.862L21,27L7.158,13.264z"></path>
+                                <path fill="#558b2f" d="M23.157,44l8.934-16.059L28,25L23.157,44z"></path>
+                                <path fill="#f9a825" d="M41.865,15H24l-1.579,4.58L41.865,15z"></path>
+                                <path fill="#fff"
+                                    d="M33,24c0,4.969-4.031,9-9,9s-9-4.031-9-9s4.031-9,9-9S33,19.031,33,24z">
+                                </path>
+                                <path fill="#2196f3"
+                                    d="M31,24c0,3.867-3.133,7-7,7s-7-3.133-7-7s3.133-7,7-7S31,20.133,31,24z">
+                                </path>
+                            </svg>
+                            <span class="mt-[10px] ml-2">Rate Us</span>
+                        </a>
+                    </div>
+
+                </div>
+
+            </section>
+            <section class="footer-end flex justify-between mt-5 mb-[50px] flex-col-reverse md:flex-row px-5 ">
+                
+                <ul class="flex gap-10 md:mt-0 grid grid-cols-2 sm:grid-cols-3">
+                    <li class="li1">
+                        <Span class="font-semibold text-blue-700">Extension</Span>
+                        <ul class="ul2 gap-10">
+                            <li class="mt-3">About</li>
+                            <li class="mt-3">Install to Chrome</li>
+                            <li class="mt-3">Rate Us</li>
+
+                        </ul>
+                    </li>
+                    <li class="li1 ">
+                        <Span class="font-semibold text-blue-700">Styles</Span>
+                        <ul class="gap-10">
+                            <li class="mt-3">Top Styles</li>
+                            <li class="mt-3">New Styles</li>
+                            <li class="mt-3">Browse Collections</li>
+
+                        </ul>
+                    </li>
+                    <li class="li1 ">
+                        <Span class="font-semibold text-blue-700">Info</Span>
+                        <ul class="gap-10">
+                            <li class="mt-3">How to Use</li>
+                            <li class="mt-3">Privacy Policy</li>
+                            <li class="mt-3">Copyright</li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <div class="right gap-10 flex items-center py-5">
+                    <span class="have">Have a question?</span>
+                    <span class="Contact px-5 py-2 bg-indigo-600 rounded-full text-white font-semibold">Contact
+                        Us</span>
+                </div>
+            </section>
+        </div>
+    </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
